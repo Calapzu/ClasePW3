@@ -1,0 +1,48 @@
+body {
+    background-color: red;
+}
+
+
+
+#padre {
+    width: 80vw;
+    height: 80vh;
+    background-color: blue
+}
+
+#cajas,
+#circulos {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    background-color: brown;
+    transition: all 0.3s ease;
+}
+
+
+
+.circulo {
+    width: 10vw;
+    height: 10vw;
+    min-width: 70px;
+    min-height: 70px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
